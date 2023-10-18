@@ -8,4 +8,4 @@ jobs:
       - uses: actions/checkout@v2
       - name:
           run: pip3 install safety && safety check
-      shell: bash
+        shell: bash
